@@ -7,6 +7,6 @@ import kotlinx.android.synthetic.main.list_item_view_pager.view.*
 
 class RecyclerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     fun bind(text: String) {
-        itemView.textView.text = text
+
     }
 }
